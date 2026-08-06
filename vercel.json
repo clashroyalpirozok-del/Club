@@ -3,6 +3,10 @@
   "outputDirectory": "frontend/build",
   "framework": null,
   "installCommand": "echo skip-root-install",
-  "trailingSlash": false
+  "trailingSlash": false,
+  "functions": {
+    "api/**/*.py": {
+      "runtime": "python3.12"
+    }
+  }
 }
-
